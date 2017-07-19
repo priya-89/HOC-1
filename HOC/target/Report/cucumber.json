@@ -1,0 +1,91 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 16,
+        "name": "Click on Outbound link",
+        "description": "",
+        "id": "as-a-parliament-website-analytics-auditor;click-on-outbound-link;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14812747603,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on Parliament beta website landing page \"GC\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GC",
+                  "offset": 46
+                }
+              ],
+              "location": "HOCdefinition.i_am_on_Parliament_beta_website_landing_page_GC(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20959210,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I assert the landing page and a pageview is collected in GA",
+            "match": {
+              "location": "HOCdefinition.i_assert_the_landing_page_and_a_pageview_is_collected_in_GA()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10271480642,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on Current parliament website link which is present on bottom of the page",
+            "match": {
+              "location": "HOCdefinition.i_click_on_Current_parliament_website_link_which_is_present_on_bottom_of_the_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1729379038,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I assert the current website URL and an outbound event will be collected in GA",
+            "match": {
+              "location": "HOCdefinition.i_assert_the_current_website_URL_and_an_outbound_event_will_be_collected_in_GA()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@solo"
+          }
+        ]
+      }
+    ],
+    "name": "As a parliament website Analytics auditor",
+    "description": "I want to access the website\nSo that page hits are collected in GA",
+    "id": "as-a-parliament-website-analytics-auditor",
+    "keyword": "Feature",
+    "uri": "HOCanalytics.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@solo"
+      }
+    ]
+  }
+]
